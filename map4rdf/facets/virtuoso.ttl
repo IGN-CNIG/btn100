@@ -23,7 +23,7 @@ _:rdfPoblacionesYConstruccionesFacet
         map4rdf:facet btn100:EdificioSingular ;
         map4rdf:facet btn100:Cueva ;
         map4rdf:facet btn100:ZonaAeroportuaria ;
-        map4rdf:facet btn100:NucleoPoblacionalSuperficial ;
+        map4rdf:facet btn100:NucleoPoblacionSuperficial ;
         map4rdf:facet btn100:AreaDeServicio ;
         map4rdf:facet btn100:Presa ;
         map4rdf:facet btn100:LugarDeInteres ;
@@ -108,9 +108,9 @@ btn100:ZonaAeroportuaria
 	rdfs:label "Zona Aeroportuaria"@en;
 .
 
-btn100:NucleoPoblacionalSuperficial
-	rdfs:label "Nucleo Poblacional Superficial"@es;
-	rdfs:label "Nucleo Poblacional Superficial"@en;
+btn100:NucleoPoblacionSuperficial
+	rdfs:label "Nucleo Población Superficial"@es;
+	rdfs:label "Nucleo Población Superficial"@en;
 .
 
 btn100:AreaDeServicio
@@ -294,7 +294,7 @@ _:rdfTransporteFacet
 		map4rdf:facet btn100:Aerodromo ;
         map4rdf:facet btn100:Faro ;
         map4rdf:facet btn100:PasoANivel ;
-        map4rdf:facet btn100:FerrocarrilDeAltaVelocidad ;
+        map4rdf:facet btn100:FerrocarrilAltaVelocidad ;
         map4rdf:facet btn100:FerrocarrilConvencional ;
         map4rdf:facet escjr:Via ;
         map4rdf:facet btn100:Teleferico ;
@@ -382,9 +382,9 @@ btn100:PasoANivel
 	rdfs:label "Paso a Nivel"@en;
 .
 
-btn100:FerrocarrilDeAltaVelocidad
-	rdfs:label "Ferrocarril de Alta Velocidad"@es;
-	rdfs:label "Ferrocarril de Alta Velocidad"@en;
+btn100:FerrocarrilAltaVelocidad
+	rdfs:label "Ferrocarril Alta Velocidad"@es;
+	rdfs:label "Ferrocarril Alta Velocidad"@en;
 .
 
 btn100:FerrocarrilConvencional
@@ -500,8 +500,8 @@ btn100:ComarcaRegion
 .
 
 btn100:CurvaNivelAltimetrica
-	rdfs:label "Curva de nivel batimétrica"@es;
-	rdfs:label "Curva de nivel batimétrica"@en;
+	rdfs:label "Curva de nivel altimétrica"@es;
+	rdfs:label "Curva de nivel altimétrica"@en;
 .
 
 btn100:Montana
@@ -558,6 +558,7 @@ _:rdfUnidadesAdministrativasFacet
         map4rdf:facet esadm:Municipio ;
         map4rdf:facet btn100:ParqueNacional ;
         map4rdf:facet esadm:ComunidadJurisdiccional ;
+        map4rdf:facet esadm:ComunidadAutonoma ;
         map4rdf:facet btn100:ZonaEspecialProteccionAves ;
         map4rdf:facet btn100:LugarImportanciaComunitaria ;
         map4rdf:facet btn100:ZonaProtegida ;
@@ -580,6 +581,11 @@ btn100:ParqueNacional
 esadm:ComunidadJurisdiccional
 	rdfs:label "Comunidad Jurisdiccional"@es;
 	rdfs:label "Comunidad Jurisdiccional"@en;
+.
+
+esadm:ComunidadAutonoma
+	rdfs:label "Comunidad Autónoma"@es;
+	rdfs:label "Comunidad Autónoma"@en;
 .
 
 btn100:ZonaEspecialProteccionAves
